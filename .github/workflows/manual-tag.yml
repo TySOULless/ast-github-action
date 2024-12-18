@@ -25,3 +25,15 @@ jobs:
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git tag -a "${tag}" -m "${message}"
           git push origin "${tag}"
+ [diff]
+Android buildbot reliability fixes.
+
+More changes to help make the chromium android buildbot more reliable.
+Unlikely to be comprehensive but in the right direction.
+
+BUG=None
+TEST=
+
+Review URL: http://codereview.chromium.org/8787010
+
+git-svn-id: svn://svn.chromium.org/chrome/trunk/src@113004 0039d316-1c4b-4281-b951-d872f2087c98
